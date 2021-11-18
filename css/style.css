@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.enquiry-form {
+    border: 5px solid #8fb5c0;
+    width: 480px;
+    background-color:#f2f7fa;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+.enquiry-form h1 {
+    margin: 0px;
+    color: #444444;
+    font-size: xx-large;
+}
+ 
+.enquiry-form p {
+    margin-top: 5px;
+    font-size: small;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 15px;
+    color: rgba(0, 0, 0, 0.7);
+}
+ 
+.enquiry-form input, 
+.enquiry-form select, 
+.enquiry-form textarea{
+    font-size: 14px;
+    outline: none;
+    width: 470px;
+    border: 1px solid #CEE1E8;
+    margin-bottom: 15px;
+    padding: 4px;
+}
+
+.enquiry-form label{
+    display:block;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.enquiry-form textarea {
+    height: 140px;
+    resize: none;
+}
+ 
+.enquiry-form input:focus,
+.enquiry-form select:focus, 
+.enquiry-form textarea:focus {
+    border: 1px solid #AFCDD8;
+    background-color: #EBF2F4;
+}
+ 
+.enquiry-form .required {
+    font-weight: bold;
+    color:#F00;    
+}
+
+.enquiry-form #submit-button {
+    width: 90px;
+    border-radius: 5px;
+    background-color:#333;
+    color:#FFF;
+    border:none;
+    display:block;
+    float:right;
+    margin-bottom:0px;
+    margin-right:6px;
+    background-color:#8FB5C1;
+}
+
+::-webkit-input-placeholder {
+    color:#ccc;
+    font-style:italic;
+}
+
+.name p, .email p, .telephone p, .message p {
+    margin-top: -15px;
+    margin-bottom: 5px;
+    font-style: normal;
+}
